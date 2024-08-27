@@ -2703,43 +2703,6 @@ jQuery.Fotorama = function ($fotorama, opts) {
                 })
         );
         frameAppend[type] = true;
-
-      // $shaft.append(
-        // $frames
-            // .filter(function () {
-              // var actual,
-                  // $this = $(this),
-                  // frameData = $this.data();
-              // for (var _i = 0, _l = data.length; _i < _l; _i++) {
-                // if (frameData.data === data[_i]) {
-                  // actual = true;
-                  // frameData.eq = _i;
-                  // break;
-                // }
-              // }
-              // return actual || $this.remove() && false;
-            // })
-            // .sort(function (a, b) {
-              // return $(a).data().eq - $(b).data().eq;
-            // })
-            // .each(function () {
-
-              // if (!thumbsFLAG) return;
-
-              // var $this = $(this),
-                  // frameData = $this.data(),
-                  // thumbwidth = Math.round(o_thumbSide2 * frameData.data.thumbratio) || o_thumbSide;
-
-              // frameData.l = left;
-              // frameData.w = thumbwidth;
-
-              // $this.css({width: thumbwidth});
-
-              // left += thumbwidth + opts.thumbmargin;
-            // })
-      // );
-
-      // frameAppend[type] = true;
     }
   }
 
